@@ -62,21 +62,6 @@ function updateFilters() {
     for (var key in filters){
       filteredData = filteredData.filter(row => row[key] === filters[key]);
     }
-      // if (filters.datetime !== undefined){
-      //   filteredData = filteredData.filter(row => row.datetime === filters.datetime);
-      // }
-      // if (filters.city !== undefined){
-      //   filteredData = filteredData.filter(row => row.city === filters.city);
-      // }
-      // if (filters.state !== undefined){
-      //   filteredData = filteredData.filter(row => row.state === filters.state);
-      // }
-      // if (filters.country !== undefined){
-      //   filteredData = filteredData.filter(row => row.country === filters.country);
-      // }
-      // if (filters.shape !== undefined){
-      //   filteredData = filteredData.filter(row => row.shape === filters.shape);
-      // }
 
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
