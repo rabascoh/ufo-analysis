@@ -1,7 +1,7 @@
 # UFO Analysis
 
 ## Overview of UFO Analysis
-The purpose of this deliverable is to allow users to explore UFO sightings data by filtering on date, city, state, country and shape. 
+The purpose of this deliverable is to allow users to explore UFO sightings data by filtering on date, city, state, country and shape of the sightings. 
 
 ## Results
 
